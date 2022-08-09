@@ -8,14 +8,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Contact page</h1>
-    <form onsubmit="return false">
-        <input type="text" placeholder="Enter your last name" id="lastName" />
-        <input type="text" placeholder="Enter your first name" id="firstName" />
-        <input type="email" placeholder="Enter your email" id="email" />
-        
-    </form>
-    <button onclick="sendContact();">Send contact</button>
+    <div>
+        <p id="phone">Number</p>
+        <input type="tel">
+      </div>
+    
+      <div>
+        <p id="companyname">Company Name</p>
+        <input type="text">
+      </div>
+    
+      <div>
+        <p id="location">Location</p>
+        <input type="text">
+      </div>
+    
 </body>
 <script src="node.js"></script>
 </html>

@@ -1,5 +1,14 @@
 
-// question 
+// question 1
+
+var phonenumber = document.getElementById("phone")
+phonenumber.appendChild(+256789035587)
+
+var names = document.getElementById("companyname")
+names.appendChild('suzan')
+
+var locate = document.getElementById("location")
+location.appendChild("karen")
 
 
 
@@ -21,18 +30,11 @@ var myObject = {
     }
 };
 myObject.func();
-// the third console.log brings undefined because the variable name is not defined in the second function scope
+// the third console.log brings undefined because the variable name is not defined in the second function 
 
 
 
 
 
 
-var fields = {
-    document.addEventListener("DOMContentLoaded", function() {
-        fields.firstName = document.getElementById('firstName');
-        fields.lastName = document.getElementById('lastName');
-        fields.email = document.getElementById('email');
-        fields.address = document.getElementById('address');
-       })
-}
+
