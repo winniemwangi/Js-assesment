@@ -2,13 +2,12 @@
 // question 1
 
 var phonenumber = document.getElementById("phone")
-phonenumber.appendChild(+256789035587)
 
 var names = document.getElementById("companyname")
-names.appendChild('suzan')
+
 
 var locate = document.getElementById("location")
-location.appendChild("karen")
+
 
 
 
